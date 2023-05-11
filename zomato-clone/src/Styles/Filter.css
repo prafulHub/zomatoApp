@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    color: #8C96AB;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+h2 {
+    color: #00008b;
+    font-size: 25px;
+}
+
+h3{
+    padding: 10px 0;
+    color: #00008b;
+    margin-left: 2rem;
+    
+    font-size: 25px;
+}
+span{
+    padding: 0px 0;
+    color: #00008b;
+    margin-left: 2rem;
+}
+h5 {
+    color: #00008b;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+strong {
+    color: #00008b;
+}
+
+.Nav_Header {
+    background-color: red;
+    padding: 10px;
+
+}
+.brand {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.E-Logo {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    padding: 0px 100px;
+}
+
+.E-Logo h1 {
+
+    height: 60px;
+    width: 60px;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+.E-Logo h1 {
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.log_IN {
+    padding-top: 18px;
+}
+
+.log_IN a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 30px;
+}
+
+.log_IN span {
+    border: 1px solid #ffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* navbar style end here */
+
+/* body section start from here */
+.heading {
+    border: none;
+    box-shadow: 0px 0px 10px 3px #80808050;
+    padding: 20px;
+}
+
+.Home_page {
+    margin-left: 6rem;
+    display: flex;
+
+}
+
+#Home_containes {
+    display: flex;
+}
+
+.Filter_sideBar {
+    padding: 15px 32px;
+    border: none;
+    box-shadow: 0px 0px 10px 3px #80808050;
+}
+
+/* left side section start */
+.Filter_sideBar select {
+    margin: 8px 0;
+    border: 1px solid #8C96AB;
+    color: #8C96AB;
+    padding: 3px;
+}
+
+.Filter_sideBar select option {
+    color: #8C96AB;
+}
+
+.check_Box {
+    padding-bottom: 4px;
+    color: #8C96AB;
+}
+
+.Box span,
+.radio-btn span {
+    color: #8C96AB;
+    padding-left: 8px;
+}
+
+.Box,
+.radio-btn {
+    padding: 8px 0;
+}
+
+.input_btn {
+    padding-bottom: 4px;
+}
+
+/* left section end here */
+/* cuisine_section right side section start from here*/
+.cuisine_section {
+    margin-left: 7rem;
+
+}
+
+.cuisine_section img {
+    height: 14vh;
+    width: 7vw;
+    border: 1px solid #8C96AB;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.cusine_Details {
+    display: flex;
+}
+
+.cuisine_Names {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cuisine_box {
+    width:50vw;
+    padding: 30px 60px;
+    border: none;
+    box-shadow: 0px 0px 10px 3px #80808050;
+    margin-bottom: 4rem;
+
+
+}
+
+.Price_Items {
+    display: flex;
+}
+
+.items p {
+    padding-left: 3rem;
+    color: #00008b;
+    font-weight: 600;
+}
+
+
+
+/* pagiation final section number start from here */
+
+#page-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: -60px;
+   
+}
+.page{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4px 11px;
+    border-radius: 8px;
+    
+}
+.page a{
+    text-decoration: none;
+    padding: 2px;
+  
+}
+.page li{
+    font-family: 'Poppins', sans-serif;
+    margin: 4px;
+    padding: 4px 11px;
+    border-radius: 8px;
+    color: #3A5075;
+    
+}
+.page a li{
+    background-color: white;
+    border: 1px solid #8C96AB;
+
+}
+.page a:hover li{
+    border-color: #8C96AB;
+    color: #cbced4;
+}
+.page a.is-active li{
+    background-color: #8C96AB;
+    color: white;
+    border-color: #8C96AB;
+    font-weight: 500;
+    cursor:pointer;
+}
+/* pagiation final section number Ended here */
+/* body section end here */

@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    color: #8C96AB;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+h2 {
+    color: #00008b;
+    font-size: 25px;
+}
+
+h3 {
+    padding: 15px 0;
+    color: #00008b;
+    margin-left: 6rem;
+    font-size: 25px;
+}
+
+h5 {
+    color: #00008b;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+strong {
+    color: #00008b;
+}
+
+.Nav_Header {
+    background-color: red;
+    padding: 10px;
+
+}
+
+.E-Logo {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    padding: 0px 100px;
+}
+
+/* .E-Logo h1 {
+
+    height: 60px;
+    width: 60px;
+    background-color: #ffff;
+    border-radius: 50%;
+} */
+
+.E-Logo h1 {
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.log_IN {
+    padding-top: 18px;
+}
+
+.log_IN a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 30px;
+}
+
+.log_IN span {
+    border: 1px solid #ffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* navbar style end here */
+
+/* body section start from here */
+.heading {
+    border: none;
+    box-shadow: 0px 0px 10px 3px #80808050;
+    padding: 20px;
+}
+
+.Home_page {
+    margin-left: 6rem;
+    display: flex;
+
+}
+
+#Home_containes {
+    display: flex;
+}
+
+.Filter_sideBar {
+    padding: 15px 32px;
+    border: none;
+    box-shadow: 0px 0px 10px 3px #80808050;
+}
+
+/* left side section start */
+.Filter_sideBar select {
+    margin: 8px 0;
+    border: 1px solid #8C96AB;
+    color: #8C96AB;
+    padding: 3px;
+}
+
+.Filter_sideBar select option {
+    color: #8C96AB;
+}
+
+.check_Box {
+    padding-bottom: 4px;
+    color: #8C96AB;
+}
+
+.Box span,
+.radio-btn span {
+    color: #8C96AB;
+    padding-left: 8px;
+}
+
+.Box,
+.radio-btn {
+    padding: 8px 0;
+}
+
+.input_btn {
+    padding-bottom: 4px;
+}
+
+/* left section end here */
+/* cuisine_section right side section start from here*/
+.cuisine_section {
+    margin-left: 7rem;
+
+}
+
+.cuisine_section img {
+    height: 14vh;
+    width: 7vw;
+    border: 1px solid #8C96AB;
+    border-radius: 8px;
+
+}
+
+.cusine_Details {
+    display: flex;
+}
+
+.cuisine_Names {
+    margin-left: 20px;
+}
+
+.cuisine_box {
+    padding: 30px 60px;
+    border: none;
+    box-shadow: 0px 0px 10px 3px #80808050;
+    margin-bottom: 3rem;
+
+}
+
+.Price_Items {
+    display: flex;
+}
+
+.items p {
+    padding-left: 3rem;
+    color: #00008b;
+    font-weight: 600;
+}
+
+
+/* body section end here */

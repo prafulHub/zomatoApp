@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav_Header {
+    background-color: red;
+    padding: 10px;
+
+}
+
+.E-Logo {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    padding: 0px 100px;
+}
+
+.E-Logo h1 {
+
+    height: 60px;
+    width: 60px;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+.E-Logo h1 {
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.log_IN {
+    padding-top: 18px;
+}
+
+.log_IN a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0px 28px;
+}
+
+.log_IN span {
+    border: 1px solid #ffff;
+    padding: 8px;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* body restro start */
+.breakfat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.breakfat img {
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+
+.gallery-btn {
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 44, 44);
+    background: rgba(255, 254, 254, 0.445);
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 19rem;
+    margin-left: 45rem;
+    transition: 0.2s ease;
+}
+
+.gallery-btn:hover {
+    background-color: #9790906c;
+    color: #ffffff;
+    border: 1px solid #757575ef;
+}
+
+.food-conents {
+    margin: 0 auto;
+}
+
+.food-conents h3 {
+    color: #192F60;
+    font-size: 25px;
+    margin-left: -1rem;
+
+}
+
+.order-btn button {
+    background: #CE0505 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #ff0000;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.order p {
+    color: #192F60;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: #CE0505;
+    font-size: 16px;
+
+}
+
+.contact p {
+    margin: 0 8rem;
+    color: #192F60;
+    font-size: 16px;
+}
+
+.fast-food {
+    padding: 10px 0;
+}
+
+.food-about h4 {
+    color: #192F60;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.food-about p {
+    color: #192F60;
+    padding: 0px 0;
+}
+
+.food-about strong {
+    color: #192F60;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.cost {
+    padding: 5px 0;
+}
+
+/* navbar style end here */
